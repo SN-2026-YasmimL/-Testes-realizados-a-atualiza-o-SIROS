@@ -7,6 +7,7 @@ https://sn-2026-yasmiml.github.io/1-A-A-2Tri-YasmimL/
 Mudei o fetch_flights.py
 
 Desse:
+
 print(f"\nRegistros filtrados para os aeroportos configurados: {len(registros)}")
 print(
     "  Obs: o upsert usa constraint voos_unique "
@@ -15,9 +16,9 @@ print(
 )
 
 Para: 
+
 print(f"\nRegistros filtrados para os aeroportos configurados: {len(registros)}")
 
-# Remove duplicados que quebram o upsert
 registros_unicos = {}
 
 for r in registros:
